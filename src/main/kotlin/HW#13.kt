@@ -16,4 +16,6 @@ fun bubbleSort(arr:IntArray):IntArray{
 fun main (args:Array<String>) {
     val list = bubbleSort(intArrayOf(10, 2, 10, 3, 1, 2, 5, 2, -1, 3))
     for(k in list) print("$k")
+    println("$k")
+
 }
