@@ -5,7 +5,7 @@ fun bubbleSort(arr:IntArray):IntArray{
         for(i in 0 until arr.size-1) {
             if(arr[i] > arr[i+1]) {
                 val temp = arr[i]
-        git        arr[i] = arr[i+1]
+               arr[i] = arr[i+1]
                 arr[i+1] = temp
                 swap = true
             }
