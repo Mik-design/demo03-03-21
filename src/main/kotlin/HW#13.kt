@@ -18,5 +18,7 @@ fun main (args:Array<String>) {
     for(k in list) print("$k")
     println("$k")
     println("$k")
+    println("$k")
+
 
 }
